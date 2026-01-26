@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mad-fasttranslate"
+version = "0.1.0"
+description = ""
+authors = ["vess william <vess1994@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "mad_fasttranslate", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+fastapi = "^0.128.0"
+uvicorn = { extras = ["standard"], version = "^0.40.0" }
+argostranslate = "^1.10.0"
+langdetect = "^1.0.9"
+pydantic = "^2.12.5"
+
+[tool.poetry.scripts]
+start = "mad_fasttranslate.main:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

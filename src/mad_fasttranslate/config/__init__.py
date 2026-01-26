@@ -1,0 +1,12 @@
+"""Configuration Pakage"""
+
+from .config import (
+SUPPORTED_LANGUAGES,
+SUPPORTED_PAIRS, 
+REQUIRED_TRANSLATIONS)
+
+__all__ = [
+    "SUPPORTED_LANGUAGES",
+    "SUPPORTED_PAIRS",
+    "REQUIRED_TRANSLATIONS",
+]

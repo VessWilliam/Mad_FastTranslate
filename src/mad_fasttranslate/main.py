@@ -15,7 +15,7 @@ from .services import TranslatorService , StartupService
 
 ### App Initialization ###
 app = FastAPI(
-    title="Mad Fast_Translate",
+    title="Mad FastTranslate",
     description="A FastAPI App - Translate Support Lang: (EN, JA, ZH)."
 )
 

@@ -15,7 +15,6 @@ class StartupService:
         available_packages = package.get_available_packages()
         
         StartupService._install_required_models(installed_pairs, available_packages)
-        StartupService._log_final_status()
          
     @staticmethod
     def _log_package_info() -> None:
@@ -30,8 +29,6 @@ class StartupService:
         pkg_path  = first_pkg.package_path if hasattr(first_pkg, 'package_path') else None
         if pkg_path:
             print(f"[Startup Service] Packages Location : {os.path.dirname(pkg_path)}")
-        
-        print(f"[Startup Service] Package Attribute : {dir(first_pkg)}")
        
      
     @staticmethod
@@ -71,9 +68,3 @@ class StartupService:
         except Exception as e:
             print(f"[Startup Service] Failed Install Package : {from_code} -> {to_code} Error: {str(e)}")
             
-    @staticmethod
-    def _log_final_status() -> None:    
-        installed_package = get_installed_packages()
-        print(f"[Startup Service] Total Installed Packages : {len(installed_package)}")
-        for p in installed_package: 
-            print(f"    - {p.from_code} -> {p.to_code}")

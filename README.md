@@ -4,7 +4,7 @@ A Translate API built with FastAPI & AgosTranslate.
 
 Supports: English (en), Japanese (ja), Chinese (zh).
 
--- Tech Stack --
+## Tech Stack 
 🌀 Python 3.12.1
 🧠 fastapi
 📦 Uvicorn
@@ -12,10 +12,11 @@ Supports: English (en), Japanese (ja), Chinese (zh).
 👾 LangDetect
 ⚠️ Pydantic
 
---- Feature ---
+## Feature 
 🔤 Auto language detection
 🌍 Supports EN ⇄ JA ⇄ ZH
 📦 Offline translation using Argos models
+
 
 
 

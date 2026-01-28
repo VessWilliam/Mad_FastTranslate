@@ -11,11 +11,13 @@ Supports: English (en), Japanese (ja), Chinese (zh).
 - 🐕 ArgosTranslate
 - 👾 LangDetect
 - ⚠️ Pydantic
+- 🔌 Poetry
 
 ## Feature 
 - 🔤 Auto language detection
 - 🌍 Supports EN ⇄ JA ⇄ ZH
 - 📦 Offline translation using Argos models
+
 
 
 

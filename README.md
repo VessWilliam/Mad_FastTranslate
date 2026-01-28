@@ -13,9 +13,10 @@ Supports: English (en), Japanese (ja), Chinese (zh).
 - ⚠️ Pydantic
 
 ## Feature 
-🔤 Auto language detection
-🌍 Supports EN ⇄ JA ⇄ ZH
-📦 Offline translation using Argos models
+- 🔤 Auto language detection
+- 🌍 Supports EN ⇄ JA ⇄ ZH
+- 📦 Offline translation using Argos models
+
 
 
 
